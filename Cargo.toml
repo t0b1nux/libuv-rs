@@ -1,19 +1,11 @@
 [package]
-name = "libuv-sys"
-version = "0.1.0"
+name = "libuv"
+version = "0.1.1"
 authors = ["Stefan O'Rear <stefanor@cox.net>"]
-build = "build.rs"
 repository = "https://github.com/sorear/libuv-rs"
 description = "Native bindings to the libuv library"
 license = "MIT"
 # todo: readme, documentation, homepage, keywords?
-exclude = ["libuv/*"]
-
-[build-dependencies]
-pkg-config = "0.3.6"
 
 [dependencies]
-libc = "0.1.10"
-
-# [lib]
-# crate-type = ["dylib"]
+libc = "0.2.26"
